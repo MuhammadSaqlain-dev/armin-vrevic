@@ -5,7 +5,6 @@ import "./css/css-style.css";
 import "./css/css-bootstrap.min.css";
 import "./css/icofont-icofont.min.css";
 import "./css/css-boxicons.min.css";
-import "./css/assets-owl.carousel.min.css";
 import "./css/venobox-venobox.css";
 
 import Header from "./components/Header";
@@ -13,6 +12,7 @@ import HeroSection from "./components/HeroSection";
 import AboutSection from "./components/AboutSection";
 import ServicesSection from "./components/ServicesSection";
 import StackSection from "./components/StackSection";
+import TestimonialSection from "./components/TestimonialSection";
 
 function App() {
   return (
@@ -22,6 +22,7 @@ function App() {
       <AboutSection />
       <ServicesSection />
       <StackSection />
+      {/* <TestimonialSection /> */}
     </React.Fragment>
   );
 }

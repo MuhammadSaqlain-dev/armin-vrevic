@@ -3,7 +3,6 @@ import React from "react";
 import react from "../img/react.svg";
 import linux from "../img/linux-ar21.png";
 import java from "../img/Java-Logo-300x188.png";
-import php from "../img/new-php-logo.jpg";
 import node from "../img/node.png";
 import images from "../img/images.jpeg";
 import swift from "../img/swift-15.svg";
@@ -16,6 +15,7 @@ import jira from "../img/Jira-new-logo.png";
 import solr from "../img/solr.png";
 import lucid from "../img/lucidchart_logo_Logo.jpeg";
 import moby from "../img/Moby-logo.webp";
+import php from "../img/php.png";
 
 const StackSection = () => {
   return (
