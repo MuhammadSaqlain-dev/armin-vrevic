@@ -1,13 +1,5 @@
 import React from "react";
 
-import mati from "../images/testimonials-mati.jpeg";
-import chris from "../images/testimonials-chris.jpeg";
-import ivica from "../images/testimonials-ivica.jpg";
-import jin from "../images/testimonials-jin.jpeg";
-import juraj from "../images/testimonials-juraj.jpg";
-import mansun from "../images/testimonials-mansun.jpg";
-import ognjen from "../images/testimonials-ognjen.jpg";
-
 const TestimonialSection = () => {
   return (
     <section
@@ -36,8 +28,7 @@ const TestimonialSection = () => {
                 well whether in writing or via phone calls and his hourly rate
                 is very competitive.
                 <br />
-                <br />
-                Overall Armin would be a solid hire.
+                <br /> Overall Armin would be a solid hire.
                 <i className="bx bxs-quote-alt-right quote-icon-right"></i>
               </p>
             </div>
@@ -46,7 +37,10 @@ const TestimonialSection = () => {
               target="_blank"
               style={{ color: "white" }}
             >
-              <img src={mati} className="testimonial-img" />
+              <img
+                src="assets/img/testimonials/mati.jpg"
+                className="testimonial-img"
+              />
             </a>
             <h3 style={{ color: "white" }}>Mati Encarnacion</h3>
             <h4 style={{ color: "white" }}>
@@ -75,7 +69,10 @@ const TestimonialSection = () => {
               target="_blank"
               style={{ color: "white" }}
             >
-              <img src={mansun} className="testimonial-img" />
+              <img
+                src="assets/img/testimonials/mansun.jpg"
+                className="testimonial-img"
+              />
             </a>
             <h3 style={{ color: "white" }}>Mansun Stevens</h3>
             <h4 style={{ color: "white" }}>
@@ -87,8 +84,7 @@ const TestimonialSection = () => {
               <p style={{ minHeight: "525px" }}>
                 <i className="bx bxs-quote-alt-left quote-icon-left"></i>
                 He is a pretty diligent and patient freelancer. He also
-                communicates well and updates his process regularly.
-                <br />
+                communicates well and updates his process regularly. <br />
                 <br />I highly recommend him to anyone who is looking for a
                 skilled engineer.
                 <i className="bx bxs-quote-alt-right quote-icon-right"></i>
@@ -99,7 +95,10 @@ const TestimonialSection = () => {
               target="_blank"
               style={{ color: "white" }}
             >
-              <img src={jin} className="testimonial-img" />
+              <img
+                src="assets/img/testimonials/jin.jpg"
+                className="testimonial-img"
+              />
             </a>
             <h3 style={{ color: "white" }}>Jin Tak Lee</h3>
             <h4 style={{ color: "white" }}>
@@ -128,7 +127,10 @@ const TestimonialSection = () => {
               target="_blank"
               style={{ color: "white" }}
             >
-              <img src={juraj} className="testimonial-img" />
+              <img
+                src="assets/img/testimonials/juraj.jpg"
+                className="testimonial-img"
+              />
             </a>
             <h3 style={{ color: "white" }}>Juraj Paris</h3>
             <h4 style={{ color: "white" }}>
@@ -158,7 +160,10 @@ const TestimonialSection = () => {
               target="_blank"
               style={{ color: "white" }}
             >
-              <img src={ivica} className="testimonial-img" />
+              <img
+                src="assets/img/testimonials/ivica.jpg"
+                className="testimonial-img"
+              />
             </a>
             <h3 style={{ color: "white" }}>Ivica Koprivnjak</h3>
             <h4 style={{ color: "white" }}>Testing Manager @ Rimac</h4>
@@ -181,7 +186,10 @@ const TestimonialSection = () => {
               target="_blank"
               style={{ color: "white" }}
             >
-              <img src={chris} className="testimonial-img" />
+              <img
+                src="assets/img/testimonials/chris.jpg"
+                className="testimonial-img"
+              />
             </a>
             <h3 style={{ color: "white" }}>Chris Surdi</h3>
             <h4 style={{ color: "white" }}>
@@ -204,13 +212,16 @@ const TestimonialSection = () => {
               </p>
             </div>
             <a
-              href="https://www.linkedin.com/in/ognjen-%C5%A1uljagi%C4%87-1aa43895/"
+              href="https://www.linkedin.com/in/ognjen-šuljagić-1aa43895/"
               target="_blank"
               style={{ color: "white" }}
             >
-              <img src={ognjen} className="testimonial-img" />
+              <img
+                src="assets/img/testimonials/ognjen.jpg"
+                className="testimonial-img"
+              />
             </a>
-            <h3 style={{ color: "white" }}>Ognjen &Scaron;uljagi&#263;</h3>
+            <h3 style={{ color: "white" }}>Ognjen Šuljagić</h3>
             <h4 style={{ color: "white" }}>
               Xamarin and .NET Developer @ Keeper Solutions
             </h4>

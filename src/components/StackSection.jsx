@@ -25,22 +25,22 @@ const StackSection = () => {
           <div className="row" style={{ padding: "15px" }}>
             <div
               className="col-md-3 col-6 content bg-tech"
-              data-aos
+              // data-aos
               style={{ backgroundImage: `url("${react}")` }}
             ></div>
             <div
               className="col-md-3 col-6 content bg-tech"
-              data-aos
+              // data-aos
               style={{ backgroundImage: `url("${linux}")` }}
             ></div>
             <div
               className="col-md-3 col-6 content bg-tech"
-              data-aos
+              // data-aos
               style={{ backgroundImage: `url("${java}")` }}
             ></div>
             <div
               className="col-md-3 col-6 content bg-tech"
-              data-aos
+              // data-aos
               style={{ backgroundImage: `url("${php}")` }}
             ></div>
           </div>
@@ -48,22 +48,22 @@ const StackSection = () => {
           <div className="row" style={{ padding: "15px" }}>
             <div
               className="col-md-3 col-6 content bg-tech"
-              data-aos
+              // data-aos
               style={{ backgroundImage: `url("${node}")` }}
             ></div>
             <div
               className="col-md-3 col-6 content bg-tech"
-              data-aos
+              // data-aos
               style={{ backgroundImage: `url("${images}")` }}
             ></div>
             <div
               className="col-md-3 col-6 content bg-tech"
-              data-aos
+              // data-aos
               style={{ backgroundImage: `url("${swift}")` }}
             ></div>
             <div
               className="col-md-3 col-6 content bg-tech"
-              data-aos
+              // data-aos
               style={{ backgroundImage: `url("${python}")` }}
             ></div>
           </div>
@@ -71,22 +71,22 @@ const StackSection = () => {
           <div className="row" style={{ padding: "15px" }}>
             <div
               className="col-md-3 col-6 content bg-tech"
-              data-aos
+              // data-aos
               style={{ backgroundImage: `url("${html}")` }}
             ></div>
             <div
               className="col-md-3 col-6 content bg-tech"
-              data-aos
+              // data-aos
               style={{ backgroundImage: `url("${bootstrap}")` }}
             ></div>
             <div
               className="col-md-3 col-6 content bg-tech"
-              data-aos
+              // data-aos
               style={{ backgroundImage: `url("${git}")` }}
             ></div>
             <div
               className="col-md-3 col-6 content bg-tech"
-              data-aos
+              // data-aos
               style={{ backgroundImage: `url("${vscode}")` }}
             ></div>
           </div>
@@ -94,22 +94,22 @@ const StackSection = () => {
           <div className="row" style={{ padding: "15px" }}>
             <div
               className="col-md-3 col-6 content bg-tech"
-              data-aos
+              // data-aos
               style={{ backgroundImage: `url("${jira}")` }}
             ></div>
             <div
               className="col-md-3 col-6 content bg-tech"
-              data-aos
+              // data-aos
               style={{ backgroundImage: `url("${solr}")` }}
             ></div>
             <div
               className="col-md-3 col-6 content bg-tech"
-              data-aos
+              // data-aos
               style={{ backgroundImage: `url("${lucid}")` }}
             ></div>
             <div
               className="col-md-3 col-6 content bg-tech"
-              data-aos
+              // data-aos
               style={{ backgroundImage: `url("${moby}")` }}
             ></div>
           </div>

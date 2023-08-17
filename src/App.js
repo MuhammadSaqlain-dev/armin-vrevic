@@ -12,17 +12,27 @@ import HeroSection from "./components/HeroSection";
 import AboutSection from "./components/AboutSection";
 import ServicesSection from "./components/ServicesSection";
 import StackSection from "./components/StackSection";
+import PortfolioSection from "./components/PortfolioSection";
 import TestimonialSection from "./components/TestimonialSection";
+import FAQSection from "./components/FAQSection";
+import ContactSection from "./components/ContactSection";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <React.Fragment>
       <Header />
       <HeroSection />
-      <AboutSection />
-      <ServicesSection />
-      <StackSection />
-      {/* <TestimonialSection /> */}
+      <main id="main">
+        <AboutSection />
+        <ServicesSection />
+        <StackSection />
+        <TestimonialSection />
+        <PortfolioSection />
+        <FAQSection />
+        <ContactSection />
+      </main>
+      <Footer />
     </React.Fragment>
   );
 }
